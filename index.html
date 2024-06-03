@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>로또 번호 추첨기</title>
+    <!-- css 및 js 사용 명시 -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/lottoNum.js"></script>
+    <script src="./js/app.js"></script>
+  </head>
+  <body>
+    <div id="board">
+      <h1>로또 번호 추첨기</h1>
+      <div>
+        <!-- onclick: click 이벤트 발생 시, js에 명시된 makeLottoNum 함수 호출 -->
+        <input
+          id="button-id"
+          type="button"
+          value="로또 번호 뽑기"
+          onclick="makeLottoNum()"
+        />
+      </div>
+      <div>
+        <h2>당첨번호</h2>
+      </div>
+      <!-- 당첨번호 확인을 위한 영역 -->
+      <div id="ball-container"></div>
+      <!-- 당첨번호 표출 이후, 당첨 이력 페이지 표출을 위한 영역 -->
+      <div id="after-pick"></div>
+    </div>
+  </body>
+</html>
