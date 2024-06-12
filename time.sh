@@ -2,9 +2,10 @@
 
 TIME=$(date)
 
+cd /home/ubuntu/kopo-web
+
 echo "$TIME" >> aa.txt
 
-cd /home/ubuntu/kopo-web
 
 
 echo "crontab" >> bb.txt
