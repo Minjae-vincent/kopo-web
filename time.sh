@@ -2,7 +2,7 @@
 
 TIME=$(date)
 
-echo $TIME >> aa.txt
+echo "$TIME" >> aa.txt
 
 cd /home/ubuntu/kopo-web
 
