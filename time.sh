@@ -6,6 +6,9 @@ echo $TIME >> aa.txt
 
 cd /home/ubuntu/kopo-web
 
-/home/ubuntu/kopo-web/make_green.sh
 
 echo "crontab" >> bb.txt
+
+git add .
+git commit -m "make green"
+git push
